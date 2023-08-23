@@ -1,0 +1,38 @@
+LLP: 	192.15.5.1
+LR2P:	192.15.5.2
+LDG: 	192.15.5.254
+SM:	255.255.255.0
+
+
+for left router to right router with clock
+  Router>en
+  Router#conf t
+   Router(config)#int Fa0/3
+   Router(config-if)#ip address 192.15.5.254 255.255.255.0
+      Router(config-if)#no shutdown 
+  Router(config-if)#exit
+
+
+enable
+#configure terminal
+#interface Se0/0/0 
+#ip address 192.15.5.254  255.255.255.0 (default getway) & (subnetmask)
+#clock rate 64000
+#no shutdown
+#exit
+
+///////left router to switch
+# config t
+# f0/0
+# ip address 192.15.5.254 
+
+
+RRP:	192.15.6.2
+RLP:  192.15.6.1
+RDG:	192.15.6.61
+SM:	255.255.255.192
+
+RRP:	192.15.6.2
+RLP:  192.15.6.1
+RDG:	192.15.6.61
+SM:	255.255.255.192

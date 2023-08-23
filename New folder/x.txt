@@ -1,0 +1,25 @@
+[
+    {
+        "id": 4,
+        "name": "Politics"
+    },
+    {
+        "id": 6,
+        "name": "SPORTS"
+    },
+    {
+        "id": 7,
+        "name": "BUSINESS"
+    },
+    {
+        "id": 8,
+        "name": "ENTERTAINMENT"
+    },
+    {
+        "id": 9,
+        "name": "CULTURE"
+    },
+    {
+        "id": 10,
+        "name": "Tech & Startup"
+    }

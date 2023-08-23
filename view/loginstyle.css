@@ -1,0 +1,33 @@
+.submission-form{
+max-width: 500px;
+margin: 2rem auto;
+border: 2px solid #E74C3C;
+padding: 2rem;
+
+}
+.in2{
+display: block;
+width: 100%;
+
+}
+
+.in3{
+display: block;
+width: 100%;
+
+}
+
+.but{
+    border: 0;
+    background: #343050;
+    padding: 1rem;
+    color: white;
+    margin: 1rem 0;
+    width: auto;
+    text-transform: uppercase;
+    
+}
+.field{
+    background: #FFFAF0;
+
+}
